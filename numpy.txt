@@ -1,0 +1,16 @@
+>>> import numpy as np
+>>> a = np.array([1,2,3])
+>>>type(a) : output--> type 'numpy.ndarray'
+>>>b = np.ones((2,3),dtype = np.int16) array([[1,1,1],[1,1,1]])
+
+Ndim --> displays the dimension of the array
+shape --->displays the tuple of the integers indicating the size of the array.
+size ---> returns the total number of elements in the array.
+Dtype ----> returns the type of the elements in the array.
+itemsize --->returns the size in bytes of each item.
+Reshape ---> reshapes the numPy array.
+
+A[2:5] --> prints 2 to 4.
+A[2::2] --->prints 2 to skipping 2 items.
+A[::-1] -->prints the array in the reverse order.
+A[1:]-->will print the row from 1 to end.
