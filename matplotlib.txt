@@ -1,0 +1,18 @@
+Data visualization is always helpful in understanding the data .
+It is used to create multiple graphs.
+>>>import matplotlib.pyplot as plt
+x = [1,2,3,4,5,6,7,8,9,0]
+num_bins = 5
+plt.hist(x,num_bins,facecolor='blue')
+plt.show()
+
+
+simple plots in matplotlib:
+1) Line_plot: plot()
+2) Sub_plot: subplot()
+3)images: imshow()
+4)Histogram: hist()
+5)Bar Charts: bar()
+6)Pie Chart: pie()
+7)Tables: table()
+8)Scatter_plot: scatter()
