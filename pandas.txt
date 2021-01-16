@@ -1,0 +1,8 @@
+>>>import pandas as pd
+Dataframes can easily be imported and exported from csv,Excel,JSON,HTML and SQL database.
+1) Data = pd.read_csv("path of the file")
+methods for dataframes:
+1) head()--->shows the table of conent till the specified number of rows .
+2) tail()-->shows the table of content till the specified number of rows from the bottom.
+3) info()--->prints the summary of the database.
+4)describe()--->prints the aggregated values over each column.
