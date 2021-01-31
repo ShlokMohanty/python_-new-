@@ -12,3 +12,9 @@ iris.target_names
 df[df.target==1].head()
 df[df.target==2].head()
 df['flower_name']= df.target.apply(lambda x: iris.target_names[x])
+import matplotlib.pyplot as plt
+%matplotlib inline
+df0 = df[df.target==0]
+df1 = df[df.target==1]
+df2 = df[df.target==2]
+plt.scatter(df0['sepal length (cm)',df1['sepal width (cm)'],color='green',marker='+')
